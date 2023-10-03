@@ -1,0 +1,63 @@
+
+<!-- https://www.youtube.com/watch?v=p1GmFCGuVjw -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+    <span class="icon-close"><ion-icon name="close-outline"></ion-icon>
+    </span>
+    
+    <div class="form-box login">
+        <h2>Sign Up</h2>
+        <form action="#">
+
+            <div class="input-box">
+                <span class="icon"><ion-icon name="phone-portrait-outline"></ion-icon></span>
+                <input type="text" id="phoneval">
+                <label for="">Phone Number</label>
+            </div>
+
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="email" id="emailval">
+                <label for="">email</label>
+            </div>
+
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" id="passwordval">
+                <label for="">password</label>
+            </div>
+
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" id="cpasswordval">
+                <label for="">Confirm password</label>
+            </div>
+          
+            <div class="remember-forgot">
+                <label for=""><input type="checkbox">I agree to the terms& conditions</label>
+                <!-- <a href="#">Forgot password</a> -->
+            </div>
+            <button type="submit" class="btn" onclick="signUpValidation()">SignUp</button>
+            <div class="login-register">
+                <p>Do you have an account <a href="Login.html" class="register-link">Login</a></p>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
